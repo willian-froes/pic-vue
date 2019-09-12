@@ -19,7 +19,7 @@ export default {
   },
 
   data() {
-    return { routes }
+    return { routes: routes.filter(route => route.menu) }
   }
 }
 </script>
