@@ -7,6 +7,12 @@ import './directives/Transform';
 import VeeValidate from 'vee-validate';
 import msf from './pt_BR';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import './assets/css/teste.css';
+
+import 'jquery/dist/jquery';
+import 'bootstrap/dist/js/bootstrap.js';
+
 Vue.use(VueResource);
 Vue.http.options.root = 'http://localhost:3000';
 Vue.use(VueRouter);
